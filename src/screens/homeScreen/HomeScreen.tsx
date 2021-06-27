@@ -1,20 +1,19 @@
-import React from "react";
-import {Text, View} from 'react-native'
+import React from 'react';
+import { View } from 'react-native';
+
 import HomeMap from '../../components/homeMap/homamap';
 import HomeMessage from '../../components/HomeMessage/HomeMessage';
-import HomeSearch from "../../components/HomeSearc/HomeSearch";
-
+import HomeSearch from '../../components/HomeSearc/HomeSearch';
 
 const HomeScreen = () => (
-    <>
-     <View>
-    <HomeMap/>
+  <>
+    <View>
+      <HomeMap />
 
-    <HomeMessage/>
-    <HomeSearch/>
-
-     </View>
-    </>
+      <HomeMessage />
+      <HomeSearch />
+    </View>
+  </>
 );
 
 export default HomeScreen;
